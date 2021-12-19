@@ -1,0 +1,1 @@
+fun fileAsString(resourcePath: String): String = object {}.javaClass.getResource(resourcePath).readText()
