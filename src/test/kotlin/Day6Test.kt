@@ -8,11 +8,4 @@ internal class Day6Test {
         val result = spawnLanternfish("day6_test.txt", 80)
         assertEquals(BigInteger.valueOf(5934), result)
     }
-
-    @Test
-    fun testMutationFormula() {
-        val rateOfGrowth: Long = 1/6
-        val initialDays = 3
-        val totalDays = 18
-    }
 }

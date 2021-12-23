@@ -71,7 +71,7 @@ class Board(val id: Int, private val positions: List<List<BoardPosition>> = muta
 
 data class BoardPosition(val value: Int, var isMarked: Boolean = false)
 
-fun main(args: Array<String>) {
+fun main() {
     println(sumUnmarkedOnWinningBoard("day4.txt"))
     println(sumUnmarkedOnLastWinningBoard("day4.txt"))
 }

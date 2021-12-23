@@ -1,6 +1,6 @@
 import kotlin.math.ceil
 
-fun main(args: Array<String>) {
+fun main() {
     println(determineGammeAndEpsilon("day3.txt"))
     println(determineOxygenAndCO2("day3.txt"))
 }

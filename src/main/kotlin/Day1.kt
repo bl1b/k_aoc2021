@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     val result = runDay1("day1.txt")
     println(result)
 

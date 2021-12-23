@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     val result = runDay2("day2.txt", Submarine())
     println(result)
     val result2 = runDay2("day2.txt", AimedSubmarine())
